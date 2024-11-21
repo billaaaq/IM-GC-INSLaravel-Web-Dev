@@ -1,0 +1,2 @@
+untuk mendukung Proyek Akhir Magang.
+sebagai sistem analis pada proyek Sistem Inventory GCI, memahami Laravel akan mempermudah dalam mengelola pengembangan sistem, membantu berkomunikasi lebih baik dengan tim pengembang, dan memastikan fitur berjalan sesuai kebutuhan.
