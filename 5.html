@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Array</title>
+</head>
+<body>
+<h1>Berlatih Array</h1>
+<h3>Looping Array</h3>
+<div id="jawaban1"></div>
+<script>
+var input = [
+  ["1001", "Andi Wijaya", "Jakarta", "01/01/1990", "Mendaki Gunung"], 
+  ["1002", "Siti Aminah", "Surabaya", "12/12/1985", "Melukis"], 
+  ["1003", "Rahmat Hidayat", "Yogyakarta", "15/08/1992", "Bermain Sepak Bola"], 
+  ["1004", "Dewi Lestari", "Bali", "20/03/1988", "Menyanyi"]
+];
+function dataHandling(arr) {
+  var output = '';  // untuk menyimpan hasil
+  for (var i = 0; i < arr.length; i++) {  
+    output += 'Nomor ID: ' + arr[i][0] + '<br>';
+    output += 'Nama Lengkap: ' + arr[i][1] + '<br>';
+    output += 'TTL: ' + arr[i][2] + ' ' + arr[i][3] + '<br>';
+    output += 'Hobi: ' + arr[i][4] + '<br><br>';  
+  }
+  return output;  
+}
+
+// Memanggil fungsi dataHandling
+var jawaban1 = dataHandling(input);
+
+// Menampilkan hasil di halaman
+document.getElementById("jawaban1").innerHTML = jawaban1;
+</script>
+</body>
+</html>
